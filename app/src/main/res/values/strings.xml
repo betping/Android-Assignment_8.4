@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Preferences 4</string>
+    <string name="add">ADD</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_age">Enter Your Phone No</string>
+    <string name="enter_your_phone_no">Enter Your Date Of Birth</string>
+    <string name="add1">ADD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="item">Add</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:padding="5dip"
+
+    android:background="#27ccc9">
+
+    <EditText
+
+        android:id="@+id/editText1"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textColor="#000"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:ems="10"
+
+        android:hint="@string/enter_your_name"
+
+        >
+
+    </EditText>
+
+
+    <EditText
+
+        android:id="@+id/editText2"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/editText1"
+
+        android:layout_marginTop="16dp"
+
+        android:textColor="#000"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:ems="10"
+
+        android:hint="@string/enter_your_age"
+
+        >
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/editText3"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/editText2"
+
+        android:layout_marginTop="16dp"
+
+        android:textColor="#000"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:ems="10"
+
+        android:hint="@string/enter_your_phone_no"
+
+        >
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/editText3"
+
+        android:text="@string/add1"
+
+        android:layout_marginTop="16dp"
+
+        android:background="#ff6f10"
+
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginStart="50dp"
+
+        android:id="@+id/b1"
+
+        android:textColor="#FFF"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/editText3"
+
+        android:text="@string/cancel"
+
+        android:layout_toRightOf="@+id/b1"
+
+        android:layout_toEndOf="@+id/b1"
+
+        android:layout_marginTop="16dp"
+
+        android:background="#ff6f10"
+
+        android:layout_marginLeft="50dp"
+
+        android:id="@+id/b2"
+
+        android:layout_marginStart="50dp"
+
+        android:textColor="#FFF"/>
+
+
+
+
+
+
+</RelativeLayout>
